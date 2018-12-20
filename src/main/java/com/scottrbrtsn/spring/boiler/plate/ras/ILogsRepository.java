@@ -1,6 +1,6 @@
-package com.robertson.boiler.plate.ras;
+package com.scottrbrtsn.spring.boiler.plate.ras;
 
-import com.robertson.boiler.plate.domain.Logs;
+import com.scottrbrtsn.spring.boiler.plate.domain.Logs;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
