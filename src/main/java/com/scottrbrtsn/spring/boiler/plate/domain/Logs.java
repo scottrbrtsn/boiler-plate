@@ -18,6 +18,5 @@ public class Logs {
     @Id
     @Column
     private long id;
-
-
+    
 }

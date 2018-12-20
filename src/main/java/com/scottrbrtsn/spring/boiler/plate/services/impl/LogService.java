@@ -12,5 +12,3 @@ public class LogService implements ILogService {
     ILogsRepository logsRepository;
 
 }
-
-
