@@ -1,6 +1,6 @@
 -- noinspection SqlNoDataSourceInspectionForFile
 
-CREATE TABLE log(
+CREATE TABLE logs(
 
 );
 

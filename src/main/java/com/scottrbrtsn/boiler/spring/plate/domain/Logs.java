@@ -1,4 +1,4 @@
-package com.scottrbrtsn.spring.boiler.plate.domain;
+package com.scottrbrtsn.boiler.spring.plate.domain;
 
 import lombok.Data;
 

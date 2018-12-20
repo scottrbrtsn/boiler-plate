@@ -1,8 +1,8 @@
-package com.scottrbrtsn.spring.boiler.plate.controllers;
+package com.scottrbrtsn.boiler.spring.plate.controllers;
 
-import com.scottrbrtsn.spring.boiler.plate.domain.Logs;
-import com.scottrbrtsn.spring.boiler.plate.ras.ILogsRepository;
-import com.scottrbrtsn.spring.boiler.plate.services.ILogService;
+import com.scottrbrtsn.boiler.spring.plate.domain.Logs;
+import com.scottrbrtsn.boiler.spring.plate.ras.ILogsRepository;
+import com.scottrbrtsn.boiler.spring.plate.services.ILogService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

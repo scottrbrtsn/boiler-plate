@@ -1,7 +1,7 @@
-package com.scottrbrtsn.spring.boiler.plate.services.impl;
+package com.scottrbrtsn.boiler.spring.plate.services.impl;
 
-import com.scottrbrtsn.spring.boiler.plate.ras.ILogsRepository;
-import com.scottrbrtsn.spring.boiler.plate.services.ILogService;
+import com.scottrbrtsn.boiler.spring.plate.ras.ILogsRepository;
+import com.scottrbrtsn.boiler.spring.plate.services.ILogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
