@@ -2,50 +2,22 @@
 
 
 <head>
-    <title>Robertson Target Practice</title>
+    <title>Hello Worlde</title>
 </head>
 <body>
             <div id="background"></div>
 
-            <button onclick="on()">ON</button>
-            <button onclick="off()">OFF</button>
 
-            <select id="FBI" name="FBI Stage">
-                <option value="" disabled selected hidden>Please Choose...</option>
-                <option value="all">All</option>
-                <option value="fbiStage1">Stage One</option>
-                <option value="fbiStage2">Stage Two</option>
-                <option value="fbiStage3">Stage Three</option>
-            </select>
-
-            <button onclick="startStage()">Start Stage</button>
 
 
 </body>
 
 <script>
 
-
-    function startStage() {
-        var e = document.getElementById("FBI");
-        var stage = e.options[e.selectedIndex].value;
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open( "GET", "/pneumatics/" + stage, false ); // false for synchronous request
-        xmlHttp.send( null );
-        return xmlHttp.responseText;
+    hello();
+    function hello() {
+       alert('Hello World');
     }
 
-    function on() {
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open( "GET", "/pneumatics/on", false ); // false for synchronous request
-        xmlHttp.send( null );
-        return xmlHttp.responseText;
-    }
 
-    function off(){
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open( "GET", "/pneumatics/stop", false ); // false for synchronous request
-        xmlHttp.send( null );
-        return xmlHttp.responseText;
-    }
 </script>
