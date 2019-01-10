@@ -11,4 +11,9 @@ public class LogService implements ILogService {
     @Autowired
     ILogsRepository logsRepository;
 
+    @Override
+    public String testMe(){
+        return "passed";
+    }
+
 }
