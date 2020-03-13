@@ -29,7 +29,6 @@ public class LogController {
 
     @GetMapping(value = "/")
     public ResponseEntity<List<Logs>> getAtos() {
-        LOGGER.debug("getATOs");
         return new ResponseEntity<>(logsRepository.findAll(), new HttpHeaders(), HttpStatus.OK);
     }
 }
